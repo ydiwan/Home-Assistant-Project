@@ -1,0 +1,32 @@
+#:kivy 1.9.1
+
+BoxLayoutExample:
+
+<BoxLayoutExample>:
+    orientation: 'vertical'
+    Button:
+        text: "A"
+        # width: "100dp"
+        height: "100dp"
+        size_hint: 0.5, None
+        # size: "40dp", "80dp"
+        # x, center_x, right
+        # y, center_y, top
+        pos_hint: { "center_x": 0.5 }
+    Button:
+        text: "B"
+        size_hint: 1, 2
+    Label:
+        text: "C"
+
+<MainWidget>:
+    Button:
+        text: "Hello!"
+        size: "100dp", "80dp"
+        pos: "100dp", "200dp"
+        color: 0, 100, 0, 1
+    Label:
+        text: "Hello2"
+        size: "100dp", "80dp"
+        pos: "200dp", "300dp"
+        color: 100, 0, 0, 1
