@@ -1,5 +1,5 @@
 .vscode/
 kivy_venv/
 kivy_tutorial_pong/
-speech/
+.venv/
 RESOURCES_KIVY/
